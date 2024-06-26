@@ -8,10 +8,10 @@ dotenv.config()
 
 app.get('/', (req, res) => {
     res.send({
-        "message": "Hello Node from UIT"
+        "message": "Hello World from Krystal hehe"
     })
 });
 
 app.listen(8080, () => {
-    console.log("THe server is running on port 8080");
+    console.log("The server is running on port 8080");
 })
